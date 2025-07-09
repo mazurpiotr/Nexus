@@ -36,15 +36,9 @@ body {
     gap: 10px;
 }
 
-.my-btn:nth-of-type(odd) {
+.my-btn {
     background: linear-gradient(45deg, #1e90ff, #00bfff);
     box-shadow: 0 4px 15px rgba(30, 144, 255, 0.4);
-    color: #ffffff
-}
-
-.my-btn:nth-of-type(even) {
-    background: linear-gradient(45deg, #9370db, #ba55d3);
-    box-shadow: 0 4px 15px rgba(147, 112, 219, 0.4);
 }
 
 .my-btn:hover {
